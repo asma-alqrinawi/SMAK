@@ -1,0 +1,412 @@
+body{
+   
+    direction: ltr;
+    font-family: 'Cantarell', sans-serif;
+
+
+}
+.center{
+    text-align: center;
+}
+a.down {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  border:none;
+  padding:20px;
+  background-color:#ffe600;
+  box-shadow: 0px 1px 0px #ffffff;
+  font-size: 15px;
+  cursor: default;
+  width: 63px;
+  height: 63px;
+   
+}
+
+a.down:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.scroll{
+   margin-top:240px; 
+    text-align: center;
+   
+}
+
+.container{
+    width: 1175px;
+
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 72px;
+    
+}
+.mainSection{
+background-image: url("../img/background1.jpeg");
+ width: 100%;
+ height:1050px;
+}
+.bg-dark{
+    opacity:0.7;
+}
+
+.navbar-nav .nav-item a.nav-link{
+  color: white;
+font-weight: bold;
+}
+.navbar-nav .nav-item a.nav-link:hover{
+    color:#ffe600;
+}
+
+.home{
+   margin-top:290px;
+  height: 366px;
+  background-color: rgba(0 , 0 , 0 ,0.1);  
+}
+.home h1{
+    padding-top:70px;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+.serviceItem{
+   width: 20%; 
+}
+    
+
+.buy button{
+ background-color:#ffe600;
+    width:233px;
+    height:58px;
+    margin-top:48px;
+    text-align: center;
+    display: block;
+     font-size:20px;
+    color: black; 
+    margin-left: 450px;
+    outline: none;
+    text-decoration: none;
+} 
+
+ button.btn:hover {
+color:white;
+text-decoration: none;
+           
+}
+
+
+
+.section span{
+    font-size:16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.section p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.line{
+    width: 173px;
+    height: 5px;
+   background: #ffe600;
+    margin-top: 27px;
+    margin: auto;
+    text-align: center;
+}
+
+.servicesBtn{
+    background-color: #ffe600;
+    border-radius: 50px;
+    width: 110px;
+    height: 102px;
+     display: inline-block;
+    outline: none;
+}
+
+
+   .serviceItem a {
+      color: white;
+      display: table-cell;
+      vertical-align: middle; 
+      text-align: center;
+      text-decoration: none;
+       font-size: 40px;
+       padding: 30px 30px;
+}
+
+.serviceItem a:hover{
+   opacity: .1;
+}
+.serviceDesc h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.process{
+background-image: url("../img/background2.jpeg");
+ width: 100%;
+ height:500px;
+ opacity:.7;
+}
+.process span{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top:28px;
+}
+.processIcon i{
+  color:#ffe600;
+  font-size: 50px;
+ text-align: center;
+}
+    .processItem{
+    margin-top: 63px;
+    text-align: center;
+    }
+
+.processDesc h3{
+  color: white;
+    margin-top:31px;
+}
+.processDesc p{
+  color: white;
+}
+.yallow{
+    font-size: 20px;
+    color:#ffe600; 
+}
+.bg-light{
+background-color:white;
+}
+.navbar-light{
+    background-color: 
+}
+.workImg{
+    width: 550px;
+    height: 440px;
+    margin-top:67px; 
+}
+
+.live button{
+  background-color:#ffe600;
+    width:233px;
+    height:58px;
+    margin-top:48px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+} 
+
+
+.work p{
+    margin-bottom: 67px;
+}
+
+.awesome{
+   margin-top:144px; 
+}
+
+.aboutIcon{
+    background-color:#ffe600;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.aboutIcon i{
+  color: white;
+    padding: 21px 21px;
+    font-size: 30px;
+}
+.responsive img{
+    height: 250px;
+
+}
+
+.about p{
+    margin-bottom: 104px;
+   
+}
+.text h5 {
+  color: white;
+  font-size:20px;
+  position: absolute;
+  top:100px;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100%;
+  width: 290px;
+  opacity:0;
+  transition: .5s ease;
+  background-color:#cfc20c;
+}
+.responsive{
+ position: relative;
+}
+.responsive:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio button{
+    background-color: #ffe600;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 171px;
+    height: 60px;
+}
+.portfolio h2{
+    margin-top: 71px;
+}
+.portfolio button{
+    margin-top: 71px;
+}
+a.btn{
+    color: white;
+    font-size: 15px;
+   
+    
+}
+
+.numbers{
+  background-image: url("../img/background2.jpeg");
+ width: 100%;
+ height:469px;
+ opacity:.7;
+
+}
+.numbers h2{
+  color: white;
+}
+.numbers span{
+   color: white;  
+}
+ 
+    
+
+.numdersItem{
+    border: solid 1px #ffe600;
+    width:22%;
+    height: 143px;
+   margin-top: 104px;
+   
+    
+}
+.numdersItem span{
+  color: white;
+  font-size:40px; 
+}
+.numdersItem p{
+    color:#ffe600; 
+    font-size: 16px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+       
+}
+
+.contact span{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    margin-top:28px;
+}
+.contactItem{
+    text-align: center;
+     margin-bottom: 104px;
+}
+.contactIcon i{
+  color:#ffe600;
+    font-size: 50px;
+    text-align: center;
+
+}
+.contactDesc h3{
+  color: black;
+margin-top:31px;
+}
+
+.message{
+  background-image: url("../img/background2.jpeg");
+ width: 100%;
+ height:664px;
+ opacity:.7;
+}
+.message h2{
+    color:white;
+}
+.message span{
+    color:white;
+   
+}
+#contact-form{
+    margin-top:67px;
+}
+.send{
+    height:218px;
+}
+
+.footer{
+  background-color: #131316;  
+}
+.footer-copyright{
+    color: white;
+    font-size: 16px;
+}
+.social{
+    margin-top: 40px;
+}
+a.link{
+    color:white;
+    font-size: 20px;
+}
+
+
+a.link:hover{
+    color:#ffe600;
+}
+.carousel-caption{
+    background-color: black;
+    
+}
+.carousel-caption  p{
+  font-size: 40px;
+  padding-top; 200px;
+}
+
+.carousel-caption  span{
+  font-size: 20px;
+ margin-top: 67px;
+}
+
+a.nav-link{
+    color:red;
+}
+
+.footer.section {
+    text-align: center;
+}
